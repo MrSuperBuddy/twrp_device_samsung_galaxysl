@@ -26,7 +26,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Add fingerprint from Stock ROM build.prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="samsung/GT-I9003/GT-I9003:2.3.6/GINGERBREAD/XXKPQ:user/release-keys
-g/test-keys
 " \
     PRIVATE_BUILD_DESC="GT-I9003-user 2.3.6 GINGERBREAD XXKPQ release-keys
 "
