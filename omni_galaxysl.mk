@@ -9,15 +9,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 
 
 
-PRODUCT_COPY_FILES += device/samsung/latona/prebuilt/zImage:kernel
+PRODUCT_COPY_FILES +=
+	device/samsung/galaxysl/prebuilt/zImage:kernel
 
 # PRODUCT_COPY_FILES += $(LOCAL_PATH)/recovery/root/*:root/*
 
-PRODUCT_DEVICE := latona
-PRODUCT_NAME := omni_latona
+PRODUCT_NAME := omni_galaxysl
+PRODUCT_DEVICE := galaxysl
 PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I9003
-PRODUCT_MANUFACTURER := latona
 
 # Forcefully add mtp support (adb is already there)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
