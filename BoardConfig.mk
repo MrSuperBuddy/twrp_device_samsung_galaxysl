@@ -1,4 +1,4 @@
-LOCAL_PATH := device/samsung/latona
+LOCAL_PATH := device/samsung/galaxysl
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := latona     # From ro.product.board
 # Recovery
