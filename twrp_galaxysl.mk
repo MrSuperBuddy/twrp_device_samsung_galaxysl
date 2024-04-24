@@ -15,8 +15,8 @@ $(call inherit-product, GT-I9003/samsung/latona/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := latona
-PRODUCT_NAME := twrp_latona
+PRODUCT_NAME := omni_galaxysl
+PRODUCT_DEVICE := galaxysl
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := GT-I9003
 PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := GT-I9003
