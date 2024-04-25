@@ -1,3 +1,3 @@
-LOCAL_PATH := device/samsung/latona
+LOCAL_PATH := device/samsung/galaxysl
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_latona.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_galaxysl.mk
