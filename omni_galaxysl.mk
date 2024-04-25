@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 
 
 
-PRODUCT_COPY_FILES +=
+PRODUCT_COPY_FILES += \
 	device/samsung/galaxysl/prebuilt/zImage:kernel
 
 # PRODUCT_COPY_FILES += $(LOCAL_PATH)/recovery/root/*:root/*
